@@ -1,0 +1,20 @@
+
+
+#### GPU run ns=1024
+Time = 3.9572e-02 s, T_eff = 207.74 GB/s 
+
+
+#### GPU run ns=2048
+Time = 3.9508e-02 s, T_eff = 832.32 GB/s 
+
+
+#### GPU run ns=4096
+Time = 9.7661e-02 s, T_eff = 1346.84 GB/s 
+
+
+#### GPU run ns=8192
+Time = 3.9072e-01 s, T_eff = 1346.56 GB/s 
+
+
+#### GPU run ns=16384
+Time = 1.5653e+00 s, T_eff = 1344.53 GB/s 

@@ -1,0 +1,5 @@
+.CondaPkg
+.ipynb_checkpoints
+.vscode
+.DS_Store
+**/*.jld2

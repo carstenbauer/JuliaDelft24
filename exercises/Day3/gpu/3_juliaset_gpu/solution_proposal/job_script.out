@@ -1,0 +1,4 @@
+CPU and GPU results match: true
+CPU (sequential):	173.51ms
+GPU (incl. transfer):	1.85ms
+GPU (w/o transfer):	366.31μs

@@ -1,0 +1,24 @@
+# Do you think it makes sense to move this computation to the GPU and why?
+
+Yes. The computational kernel is memory bound. In each iteration, there are only two FLOPs, which won't matter much compared to the data transfer due to the array accesses.
+Since the memory bandwidth of a GPU is typically much higher than the same of 1 or 2 CPUs, we can expect a speed improvement by moving to the GPU.
+
+# Does the trend (as a function of increasing ns) make sense?
+
+Yes. With increasing `ns`, we are transfering more and more data, approaching the maximal memory bandwidth limit.
+
+# How does `T_eff` compare to the serial/multithreaded variants?
+
+It blows it out of the water (at least on my machine/GPU).
+
+# How does `T_eff` compare to the result obtained in the `saxpy_gpu` exercise?
+
+In the SAXPY exercise we estimated the practically reachable maximal memory bandwidth of the GPU. `T_eff` is approaching this value for large `ns`, as it should.
+
+# Do you think we can improve the performance much further? Why/why not?
+
+Not by a lot, no, because `T_eff` is already very close to the maximal memory bandwidth (the theoretical upper limit).
+
+# Was it a good idea to move to the GPU?
+
+Absolutely!

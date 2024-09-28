@@ -1,0 +1,43 @@
+Running 1_mpi_hello.jl
+Hello world, I am rank 2 of 5
+Hello world, I am rank 4 of 5
+Hello world, I am rank 1 of 5
+Hello world, I am rank 3 of 5
+Hello world, I am rank 0 of 5
+Running 2_mpi_blocking_communication.jl
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+[2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+[3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+[4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+Running 3_mpi_ring_communication_nonblocking.jl
+Rank 0 will start Recv!/Send soon.
+Rank 1 will start Recv!/Send soon.
+Rank 2 will start Recv!/Send soon.
+Rank 3 will start Recv!/Send soon.
+Rank 4 will start Recv!/Send soon.
+Rank 0 has finished Recv!/Send.
+Rank 1 has finished Recv!/Send.
+Rank 2 has finished Recv!/Send.
+Rank 3 has finished Recv!/Send.
+Rank 4 has finished Recv!/Send.
+Running 4_mpi_wtime.jl
+  0.000228 seconds (4 allocations: 112 bytes)
+  1.002337 seconds (4 allocations: 112 bytes)
+  2.002339 seconds (4 allocations: 112 bytes)
+  3.004343 seconds (4 allocations: 112 bytes)
+  4.005391 seconds (4 allocations: 112 bytes)
+Elapsed MPI Wtime: 4.108432921988424
+Elapsed MPI Wtime: 4.1085774390085135
+Elapsed MPI Wtime: 4.108559938002145
+Elapsed MPI Wtime: 4.107918539986713
+Elapsed MPI Wtime: 4.107002209988423
+Running 5_mpi_trapezoidal_integration.jl
+π (numerical integration) ≈   3.1415893274305811
+Running 6_mpi_custom_reduction.jl
+local_result = MyType(0.0f0, 0, [0, 0])
+local_result = MyType(10.0f0, 10, [10, 10])
+local_result = MyType(20.0f0, 20, [20, 20])
+local_result = MyType(30.0f0, 30, [30, 30])
+local_result = MyType(40.0f0, 40, [40, 40])
+Total result: MyType(100.0f0, 100, [100, 100])

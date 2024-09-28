@@ -1,0 +1,25 @@
+
+AXPY with scheduler = :dynamic
+
+Memory Bandwidth (GB/s)
+┌────────────────┬─────────┬───────────┐
+│ # Threads = 12 │ :serial │ :parallel │
+├────────────────┼─────────┼───────────┤
+│         :cores │    46.4 │     46.57 │
+│       :sockets │   37.84 │     62.02 │
+│          :numa │   45.17 │     89.99 │
+└────────────────┴─────────┴───────────┘
+
+
+AXPY with scheduler = :static
+
+Memory Bandwidth (GB/s)
+┌────────────────┬─────────┬───────────┐
+│ # Threads = 12 │ :serial │ :parallel │
+├────────────────┼─────────┼───────────┤
+│         :cores │   46.47 │     46.36 │
+│       :sockets │   36.24 │     89.79 │
+│          :numa │   39.37 │     151.5 │
+└────────────────┴─────────┴───────────┘
+
+ 97.312693 seconds (1.31 M allocations: 150.087 GiB, 2.76% gc time, 1.81% compilation time)

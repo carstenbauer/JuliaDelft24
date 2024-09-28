@@ -1,0 +1,39 @@
+
+Memory Bandwidth (GB/s)
+┌───────────────┬─────────┬───────────┐
+│ # Threads = 1 │ :serial │ :parallel │
+├───────────────┼─────────┼───────────┤
+│        :cores │   20.91 │     20.95 │
+│      :sockets │   20.92 │     20.92 │
+│         :numa │   20.95 │     20.95 │
+└───────────────┴─────────┴───────────┘
+
+Memory Bandwidth (GB/s)
+┌────────────────┬─────────┬───────────┐
+│ # Threads = 12 │ :serial │ :parallel │
+├────────────────┼─────────┼───────────┤
+│         :cores │   46.36 │     46.24 │
+│       :sockets │   36.18 │     89.56 │
+│          :numa │   47.67 │    151.98 │
+└────────────────┴─────────┴───────────┘
+
+Memory Bandwidth (GB/s)
+┌────────────────┬─────────┬───────────┐
+│ # Threads = 24 │ :serial │ :parallel │
+├────────────────┼─────────┼───────────┤
+│         :cores │    44.8 │     89.38 │
+│       :sockets │   45.31 │     91.95 │
+│          :numa │   42.54 │    176.19 │
+└────────────────┴─────────┴───────────┘
+
+Memory Bandwidth (GB/s)
+┌────────────────┬─────────┬───────────┐
+│ # Threads = 48 │ :serial │ :parallel │
+├────────────────┼─────────┼───────────┤
+│         :cores │    39.0 │    179.39 │
+│       :sockets │   45.45 │    178.79 │
+│          :numa │   49.71 │    177.97 │
+└────────────────┴─────────┴───────────┘
+257.976490 seconds (1.27 M allocations: 450.088 GiB, 2.17% gc time, 0.41% compilation time)
+177.685255 seconds (3.63 M allocations: 506.503 GiB, 3.61% gc time, 1.02% compilation time: 24% of which was recompilation)
+435.675897 seconds (4.90 M allocations: 956.591 GiB, 2.76% gc time, 0.66% compilation time: 15% of which was recompilation)

@@ -1,0 +1,30 @@
+
+
+#### Run nranks=1
+nprocs = 1, dims = (1, 1)
+Time = 1.0295e+00 s, T_eff = 16.13 GB/s 
+
+
+#### Run nranks=4
+nprocs = 4, dims = (2, 2)
+Time = 1.7225e+00 s, T_eff = 9.64 GB/s 
+
+
+#### Run nranks=8
+nprocs = 8, dims = (4, 2)
+Time = 2.3094e+00 s, T_eff = 7.19 GB/s 
+
+
+#### Run nranks=9
+nprocs = 9, dims = (9, 1)
+Time = 2.3349e+00 s, T_eff = 7.11 GB/s 
+
+
+#### Run nranks=12
+nprocs = 12, dims = (4, 3)
+Time = 3.2712e+00 s, T_eff = 5.08 GB/s 
+
+
+#### Run nranks=16
+nprocs = 16, dims = (4, 4)
+Time = 4.5329e+00 s, T_eff = 3.66 GB/s 

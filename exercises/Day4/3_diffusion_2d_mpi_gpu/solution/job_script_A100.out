@@ -1,0 +1,18 @@
+[gpu014:3483793] MCW rank 0 is not bound (or bound to all available processors)
+[gpu014:3483793] MCW rank 1 is not bound (or bound to all available processors)
+[gpu016:1355264] MCW rank 2 bound to socket 1[core 0[hwt 0]]: [][B/.]
+[gpu016:1355264] MCW rank 3 bound to socket 1[core 1[hwt 0]]: [][./B]
+]0;Julia]0;Julia]0;Julia]0;Julia]0;Julia]0;Julia]0;Julia]0;JuliaCuDevice(0), out of: 1
+CuDevice(0), out of: 1
+CuDevice(1), out of: 2
+CuDevice(0), out of: 2
+nprocs = 4, dims = (2, 2)
+Time = 6.0680e-01 s, T_eff = 0.43 GB/s 
+
+]0;Julia]0;Julia]0;Julia]0;Julia]0;Julia]0;Julia]0;Julia]0;JuliaCuDevice(0), out of: 2
+CuDevice(1), out of: 2
+nprocs = 4, dims = (2, 2)
+CuDevice(0), out of: 1
+CuDevice(0), out of: 1
+Time = 6.9736e+00 s, T_eff = 609.73 GB/s 
+

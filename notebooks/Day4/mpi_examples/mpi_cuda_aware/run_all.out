@@ -1,0 +1,18 @@
+Running 1_cudampi_singlegpu.jl
+rank 0 of 4 (gpu=CuDevice(0)): destination=1, source=3
+rank 1 of 4 (gpu=CuDevice(0)): destination=2, source=0
+rank 2 of 4 (gpu=CuDevice(0)): destination=3, source=1
+rank 3 of 4 (gpu=CuDevice(0)): destination=0, source=2
+recv_mesg on proc 0: [3.0, 3.0, 3.0, 3.0]
+recv_mesg on proc 1: [0.0, 0.0, 0.0, 0.0]
+recv_mesg on proc 2: [1.0, 1.0, 1.0, 1.0]
+recv_mesg on proc 3: [2.0, 2.0, 2.0, 2.0]
+Running 2_cudampi_multigpu.jl
+rank 0 of 4 (gpu=CuDevice(0)): destination=1, source=3
+rank 1 of 4 (gpu=CuDevice(1)): destination=2, source=0
+rank 2 of 4 (gpu=CuDevice(2)): destination=3, source=1
+rank 3 of 4 (gpu=CuDevice(3)): destination=0, source=2
+recv_mesg on proc 3: [2.0, 2.0, 2.0, 2.0]
+recv_mesg on proc 1: [0.0, 0.0, 0.0, 0.0]
+recv_mesg on proc 2: [1.0, 1.0, 1.0, 1.0]
+recv_mesg on proc 0: [3.0, 3.0, 3.0, 3.0]

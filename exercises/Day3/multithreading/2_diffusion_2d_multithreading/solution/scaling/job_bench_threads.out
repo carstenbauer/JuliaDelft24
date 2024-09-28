@@ -1,0 +1,68 @@
+
+
+#### Run 6144
+-- ns=6144, nt=100, SERIAL initialization, STATIC scheduling
+pinthreads(cores)
+Time = 1.8100e+00 s, T_eff = 30.03 GB/s 
+pinthreads(sockets)
+Time = 1.5380e+00 s, T_eff = 35.34 GB/s 
+pinthreads(numa)
+Time = 2.1671e+00 s, T_eff = 25.08 GB/s 
+
+-- ns=6144, nt=100, SERIAL initialization, DYNAMIC scheduling
+pinthreads(cores)
+Time = 1.8621e+00 s, T_eff = 29.19 GB/s 
+pinthreads(sockets)
+Time = 1.7988e+00 s, T_eff = 30.22 GB/s 
+pinthreads(numa)
+Time = 1.1853e+00 s, T_eff = 45.86 GB/s 
+
+-- ns=6144, nt=100, PARALLEL initialization, STATIC scheduling
+pinthreads(cores)
+Time = 1.8017e+00 s, T_eff = 30.17 GB/s 
+pinthreads(sockets)
+Time = 9.2110e-01 s, T_eff = 59.01 GB/s 
+pinthreads(numa)
+Time = 5.2496e-01 s, T_eff = 103.55 GB/s 
+
+-- ns=6144, nt=100, PARALLEL initialization, DYNAMIC scheduling
+pinthreads(cores)
+Time = 1.7999e+00 s, T_eff = 30.20 GB/s 
+pinthreads(sockets)
+Time = 1.4054e+00 s, T_eff = 38.68 GB/s 
+pinthreads(numa)
+Time = 9.6417e-01 s, T_eff = 56.38 GB/s 
+
+
+#### Run 16384
+-- ns=16384, nt=100, SERIAL initialization, STATIC scheduling
+pinthreads(cores)
+Time = 1.2395e+01 s, T_eff = 31.19 GB/s 
+pinthreads(sockets)
+Time = 7.3594e+00 s, T_eff = 52.52 GB/s 
+pinthreads(numa)
+Time = 6.2065e+00 s, T_eff = 62.28 GB/s 
+
+-- ns=16384, nt=100, SERIAL initialization, DYNAMIC scheduling
+pinthreads(cores)
+Time = 1.2430e+01 s, T_eff = 31.10 GB/s 
+pinthreads(sockets)
+Time = 1.7464e+01 s, T_eff = 22.13 GB/s 
+pinthreads(numa)
+Time = 1.4699e+01 s, T_eff = 26.30 GB/s 
+
+-- ns=16384, nt=100, PARALLEL initialization, STATIC scheduling
+pinthreads(cores)
+Time = 1.2396e+01 s, T_eff = 31.18 GB/s 
+pinthreads(sockets)
+Time = 6.4545e+00 s, T_eff = 59.89 GB/s 
+pinthreads(numa)
+Time = 3.9406e+00 s, T_eff = 98.09 GB/s 
+
+-- ns=16384, nt=100, PARALLEL initialization, DYNAMIC scheduling
+pinthreads(cores)
+Time = 1.2444e+01 s, T_eff = 31.06 GB/s 
+pinthreads(sockets)
+Time = 9.8194e+00 s, T_eff = 39.37 GB/s 
+pinthreads(numa)
+Time = 7.0451e+00 s, T_eff = 54.87 GB/s 
