@@ -20,7 +20,7 @@ The simplest way to install Julia 1.10 is via [juliaup](https://github.com/Julia
 ##### Linux/macOS
 
 ```
-curl -fsSL https://install.julialang.org | sh -s -- --yes
+curl -fsSL https://install.julialang.org | sh -s -- --yes --default-channel 1.10
 ```
 
 ##### Windows
