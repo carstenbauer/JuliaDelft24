@@ -29,6 +29,8 @@ curl -fsSL https://install.julialang.org | sh -s -- --yes --default-channel 1.10
 winget install julia -s msstore
 ```
 
+**Important:** Julia 1.11 has been released on Oct 8 but for the course we'll still use 1.10. Make sure that you have the correct Julia version!
+
 ### Download workshop materials
 
 The simplest way to download the workshop materials (this GitHub repository) is through [Git]().
