@@ -6,6 +6,9 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=5gb
 #SBATCH --partition=compute
+#SBATCH --account=education-eemcs-courses-julia 
+#SBATCH --qos=reservation 
+#SBATCH --reservation=JuliaWorkshopCPU
 
 if [[ -n "${SLURM_JOBID}" ]]; then
     # we're running as a cluster job → load modules

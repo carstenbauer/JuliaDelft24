@@ -9,6 +9,9 @@
 #SBATCH --partition=compute
 #SBATCH --output=job_script_bench_multinode.out
 #SBATCH --exclusive
+#SBATCH --account=education-eemcs-courses-julia 
+#SBATCH --qos=reservation 
+#SBATCH --reservation=JuliaWorkshopCPU
 
 if [[ -n "${SLURM_JOBID}" ]]; then
     # we're running as a cluster job → load modules

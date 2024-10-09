@@ -6,6 +6,9 @@
 #SBATCH --gpus-per-task=1
 #SBATCH --mem-per-cpu=8gb
 #SBATCH --partition=gpu-v100
+#SBATCH --account=education-eemcs-courses-julia 
+#SBATCH --qos=reservation 
+#SBATCH --reservation=JuliaWorkshopGPU
 
 if [[ -n "${SLURM_JOBID}" ]]; then
     # we're running as a cluster job -> load the module(s)
