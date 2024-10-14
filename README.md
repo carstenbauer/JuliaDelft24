@@ -1,8 +1,10 @@
 # JuliaDelft24
 
-A four-day workshop that will take place at [TU Delft](https://www.tudelft.nl/en/) in October 2024.
+A four-day course that will take place at [TU Delft](https://www.tudelft.nl/en/) in October 2024.
    
 **Trainer:** [Dr. Carsten Bauer](https://github.com/carstenbauer)
+
+**Course page:** https://www.tudelft.nl/en/evenementen/2024/dcse/courses/introduction-to-julia-for-high-performance-computing
 
 ## Schedule (tentative)
 
