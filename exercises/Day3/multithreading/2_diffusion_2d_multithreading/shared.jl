@@ -1,3 +1,5 @@
+using OhMyThreads: @tasks, @set
+
 ## PARAMETER INITIALIZATION
 function init_params(; ns=128, nt=ns^2÷40, static=false, kwargs...)
     L    = 10.0               # physical domain length
